@@ -34,12 +34,12 @@ In order to pre-train (and finetune) a [T5 small](https://github.com/google-rese
     
 
 * ##### Pre-trainig/Fine-tuning :computer:
-    To pre-train and then, fine-tune T5, you can use the script we provide here:
+    To pre-train and then fine-tune T5, you can use the script we provide here:
     -  <a href ='https://github.com/GHAR-ICSE/workflow-completion/blob/main/Code/T5/Pre_Training_Actions.ipynb'>Pre-Training</a> 
-    -  <a href ='https://github.com/GHAR-ICSE/workflow-completion/blob/main/Code/T5/Fine_Tuning_Actions.ipynb'>Fine-Tuning</a> 
+    -  <a href ='https://github.com/GHAR-ICSE/workflow-completion/blob/main/Code/T5/Fine_Tuning_Github.ipynb'>Fine-Tuning</a> 
 
 * ##### Statistical Tests
-    The code to replicate the statistical tests (i.e, McNemar and Wilcoxon) are available at the following links:
+    The code to replicate the statistical tests (i.e., McNemar and Wilcoxon) are available at the following links:
     -  <a href ='https://github.com/GHAR-ICSE/workflow-completion/blob/main/Code/Statistical-Tests/MC-Nemar.R'>McNemar</a> 
     -  <a href ='https://github.com/GHAR-ICSE/workflow-completion/blob/main/Code/Statistical-Tests/Wilcoxon.R'>Wilcoxon</a> 
     
@@ -58,7 +58,7 @@ In order to pre-train (and finetune) a [T5 small](https://github.com/google-rese
 
 
 * ##### Extra: :clipboard:
-    * Hyperparameters tuning results are available as well as the convergence of the models are available <a href="https://drive.google.com/drive/folders/1fzmWgAhO9t1wd-0ihUhARZ9tNqVfhC0N?usp=sharing"> here </a>
+    * The Hyperparameters tuning results, as well as the convergence of the models, are available <a href="https://drive.google.com/drive/folders/1fzmWgAhO9t1wd-0ihUhARZ9tNqVfhC0N?usp=sharing"> here </a>
     * To navigate the replication package click <a href="https://drive.google.com/drive/folders/1plvKlhShm-3brN6LXG_kR3rPo7lsq8BH?usp=sharing">here</a> 
 
     
