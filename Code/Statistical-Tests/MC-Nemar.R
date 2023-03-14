@@ -34,7 +34,7 @@ library(xtable)
 # res$McNemar.p=p.adjust(res$McNemar.p,method="holm")
 # print(res)
 
-####### UNCOMMENT to run the statistical tests which compare GHAR against the baseline (ngram) #######
+####### UNCOMMENT to run the statistical tests which compare GH-WCOM against the baseline (ngram) #######
 
 
 res=list(Dataset=c(),McNemar.p=c(),McNemar.OR=c())
