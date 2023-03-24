@@ -1,10 +1,10 @@
 # Automated Completion of GitHub Workflows
 
-Our work introduces GHAR (GitHub Action Recommender), a recommender system designed for GitHub workflows. The main objective of GHAR is to provide automated suggestions for GitHub workflows by recommending appropriate actions. We utilized the text-to-text transfer transform model (T5) as the foundation for our approach.
+Our work introduces GH-WCOM (GitHub WOrkflOW COMpletiOn), a recommender system designed for GitHub workflows. The main objective of GH-WCOM is to provide automated suggestions for GitHub workflows by recommending appropriate actions. We utilized the text-to-text transfer transform model (T5) as the foundation for our approach.
 
 #### Pipeline Description
 
-To build GHAR, we relied on the pretrain-then-finetune paradigm. Thus, we first need to pre-train the T5 model and later on we can instantiate the architecture of T5 for the auto-completion of GitHub Workflows.
+To build GH-WCOM, we relied on the pretrain-then-finetune paradigm. Thus, we first need to pre-train the T5 model and later on we can instantiate the architecture of T5 for the auto-completion of GitHub Workflows.
 
 #### Pre-training
 In order to pre-train (and finetune) a [T5 small](https://github.com/google-research/text-to-text-transfer-transformer) model, we need a new sentencepiece model to accommodate the expanded vocabulary given by the naturally occuring context-specific tokens featuring GitHub workflow files.
